@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Diabetes Prediction | Muhammad Usman Khan</title>
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    body { background:#f8f9fb; font-family:'Open Sans', sans-serif; }
+    .project-hero { padding:80px 0; text-align:center; background:#fff; border-bottom:1px solid #eaeaea; }
+    .project-hero h2 { font-weight:700; font-size:2.2rem; }
+    .project-hero p { color:#6c757d; font-size:1rem; }
+    .project-img img { width:100%; border-radius:16px; box-shadow:0 10px 25px rgba(0,0,0,0.08); transition:transform .3s ease; }
+    .project-img img:hover { transform:scale(1.02); }
+    .section-content { padding:60px 0; }
+    .badge-tech { margin:4px; padding:7px 12px; background:#e7f1ff; color:#0b5ed7; border-radius:6px; font-weight:600; font-size:13px; display:inline-block; }
+    h4 { margin-top:25px; font-weight:700; }
+    ul li { margin-bottom:8px; }
+    .btn-back, .btn-link {
+      display:inline-block; margin-top:25px; padding:10px 22px;
+      border-radius:8px; font-weight:600; text-decoration:none; transition:all .3s ease;
+    }
+    .btn-back { background:#0b5ed7; color:#fff; }
+    .btn-back:hover { background:#084298; }
+    .btn-link { border:1px solid #0b5ed7; color:#0b5ed7; margin-left:10px; }
+    .btn-link:hover { background:#0b5ed7; color:#fff; }
+    footer { background:#0b5ed7; color:#fff; }
+    footer p { margin:0; font-size:14px; }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center"><h1 class="sitename">Muhammad Usman Khan</h1></a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main style="margin-top:100px">
+    <!-- Hero Section -->
+    <section class="project-hero">
+      <div class="container" data-aos="fade-up">
+        <h2>Diabetes Prediction</h2>
+        <p>Predictive model using Logistic Regression to assess diabetes risk based on health parameters.</p>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="container section-content" data-aos="fade-up">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 project-img">
+          <img src="assets/img/portfolio/diabetes.png" alt="Diabetes Prediction Project">
+        </div>
+        <div class="col-lg-6">
+          <h4>Project Overview</h4>
+          <p>
+            This project uses a healthcare dataset to predict diabetes outcomes based on patient health indicators. The data was cleaned, normalized, and trained using Logistic Regression and Random Forest models to ensure accuracy and generalization.
+          </p>
+
+          <h4>Tools & Techniques</h4>
+          <p>
+            <span class="badge-tech">Python</span>
+            <span class="badge-tech">Pandas</span>
+            <span class="badge-tech">Scikit-learn</span>
+            <span class="badge-tech">Matplotlib</span>
+            <span class="badge-tech">Seaborn</span>
+          </p>
+
+          <h4>Key Outcomes</h4>
+          <ul>
+            <li>Achieved 87% prediction accuracy using Logistic Regression.</li>
+            <li>Enhanced recall using balanced dataset preprocessing.</li>
+            <li>Visualized results with ROC curve and confusion matrix.</li>
+          </ul>
+
+          <a href="index.html" class="btn-back"><i class="bi bi-arrow-left"></i> Back to ML Projects</a>
+          <a href="https://github.com/MuhammadUsman-Khan" target="_blank" class="btn-link"><i class="bi bi-github"></i> GitHub</a>
+          <a href="#" class="btn-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer mt-5 py-3 text-center">
+    <div class="container">
+      <p>© 2025 <strong>Muhammad Usman Khan</strong>. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
